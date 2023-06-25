@@ -1,0 +1,43 @@
+* {
+    margin: 3px;
+    padding: 0;
+    background-color: #B0B0B3;
+}
+
+.container {
+    display: grid;
+    height: 0px;
+    width: 80%;
+    font-size: 16px;
+    margin: 0 auto;
+}   
+
+.container1 {
+    color: #404143;
+    text-align: center;
+}
+
+.container1 h1 {
+    font-size: 2.0rem;
+}
+
+.container2 {
+    background-color: lightgray;
+    padding: 20px 20px 20px 20px;
+    border: 10px double #494c4e;
+    display: grid;
+    grid-template-columns: 50% repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.container2 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.imagem01 {
+    grid-area: 1 / 1 / 4 / 2;
+}
